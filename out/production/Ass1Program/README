@@ -1,0 +1,31 @@
++++++++++++++++++++++++++++++++++++++++++++++
+README
++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++
+To Compile and Run Assignment 1:
++++++++++++++++++++++++++++++++++++++++++++++
+**You will need to remove the Assignment1Test.java file from the /src folder in order for the program to compile correctly.**
+
+Navigate to Ass1Program folder in the Bash Console:
+**On my system I will enter**
+	cd ~/OneDrive*/Semester1 2022/Further Programming/Ass1Program
+**On your system the folder will be located somewhere else**
+
+To compile all of the .java files in the folder, enter the command:
+	javac ./src/*.java
+
+While still in the Ass1Program folder, enter the command:
+	java -cp ./src RunProgram
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++
+To Compile and Run the Assignment 1 Tests:
++++++++++++++++++++++++++++++++++++++++++++++
+I could not work out how to do this, it is something like;
+
+javac -cp junit-4.13.2.jar;. Assignment1Test.java
